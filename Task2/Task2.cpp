@@ -15,7 +15,7 @@ int main() {
     if (change == 0) answer = "0 руб: 0 шт., ";
     else {
         int exitI = 100;
-        while (i < 10) {
+        while (i < 11) {
             if (change - moneyValue[i] >= 0) {
                 count++;
                 change -= moneyValue[i];
